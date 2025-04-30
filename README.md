@@ -7,12 +7,15 @@ user-supplied locations for location-aware matching.
 
 ## Notes
 
-- This service is designed to run as part of the CatCall application and is not
+- This service is designed to run as part of the
+  [CatCall application](https://github.com/zandonella/CatCall) and is not
   intended for standalone production use.
 - MongoDB must be running and accessible using the URI defined in your `.env`
   file.
-- The service queries the Auth microservice (AUTH_SERVICE_URL) to verify that
-  users exist before creating or updating preferences.
+- The service queries the
+  [**Auth Service**](https://github.com/zandonella/auth-microservice)
+  (AUTH_SERVICE_URL) to verify that users exist before creating or updating
+  preferences.
 
 ## Base Configuration
 
